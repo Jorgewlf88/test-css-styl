@@ -1,0 +1,134 @@
+/*
+// Estilos Personalizados
+// Sitio: presmedsso.com
+// Preprocesador: Stylus
+// Autor: Jorge Ortega
+// Versión: 1.0
+*/
+.flex-caption h2 {
+  background: rgba(68,141,218,0.7);
+}
+body {
+  background-color: #f5fafb;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  color: #00568a;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+a {
+  color: #00568a;
+}
+.btn-default,
+.label-default {
+  background-color: #00568a;
+  border-color: #00568a;
+}
+.btn {
+  color: #00568a;
+}
+.btn-presm {
+  border: 1px solid #00568a;
+}
+.btn-presm:hover {
+  background: #f0980d;
+}
+.txt-h {
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.home .entry-header,
+.page .entry-header {
+  display: none;
+}
+.navbar.navbar-default {
+  border-bottom: 2px solid #00568a;
+}
+.site-navigation-inner #logo img {
+  width: 335px;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+  background-color: #00568a;
+}
+.rojo {
+  color: #ec293f;
+}
+.main-content-area {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.divisor {
+  width: 80px;
+  border-top: 2px solid #00568a;
+  margin: o auto 9px;
+}
+.cont-bloques-iconos {
+  font-size: 55px;
+}
+.cont-bloques-iconos .fa-user-md {
+  color: #52b7f3;
+}
+.cont-bloques-iconos .fa-commenting-o {
+  color: #ffa51e;
+}
+.cont-bloques-iconos .fa-heartbeat {
+  color: #ff4c4c;
+}
+.cont-bloques-iconos .fa-hospital-o {
+  color: #04f5a7;
+}
+.panel-default > .panel-heading {
+  background-color: #fff;
+  padding-bottom: 15px;
+}
+.flex-caption .excerpt {
+  display: none;
+}
+.diagnosticos .cont-bloques-iconos + div {
+  margin: 10px 0 0 0;
+}
+.cont-social {
+  font-size: 18px;
+  margin: 0 8px;
+}
+.facebook,
+.instagram,
+.youtube,
+.linkedin {
+  display: inline-block;
+  font-size: 35px;
+  margin: 0 10px;
+}
+.facebook a:hover {
+  color: #3b5998 !important;
+}
+.instagram a:hover {
+  color: #517fa4 !important;
+}
+.youtube a:hover {
+  color: #b00 !important;
+}
+.linkedin a:hover {
+  color: #007bb6 !important;
+}
+.sugestion {
+  font-size: 11px;
+}
+@media screen and (min-width: 768px) {
+  .sugestion {
+    text-align: right;
+  }
+}

@@ -19,7 +19,8 @@ linkedin   = #007bb6  //rgb(0, 123, 182)
 youtube    = #bb0000  //rgb(187, 0, 0)
 instagram  = #517fa4  //rgb(81, 127, 164)
 
-
+$fondo-alfa
+  background rgba(68, 141, 218, 0.7)
 
 // *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
 //   GLOBAL
@@ -120,7 +121,7 @@ a
   .excerpt
     display none
   h2
-    background rgba(68, 141, 218, 0.7)
+    @extends $fondo-alfa
 
 .diagnosticos
   .cont-bloques-iconos
@@ -157,8 +158,6 @@ a
 
 .sugestion
   font-size 11px
-
-
 
 @media screen and (min-width:768px)
   .sugestion
