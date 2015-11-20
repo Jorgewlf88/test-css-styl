@@ -81,6 +81,25 @@ a
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus
   background-color azul
 
+// *-*-*-*-*-*-*-*-*- Probar
+.dropdown-menu
+  > li
+    > a
+      &:hover
+      &:focus
+        background-color azul
+
+.navbar-default
+  .navbar-nav
+    .open
+      .dropdown-menu
+        > li
+          > a
+            &:hover
+            &:focus
+              @extends .dropdown-menu > li > a:hover
+
+
 
 // *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
 //   CUERPO
