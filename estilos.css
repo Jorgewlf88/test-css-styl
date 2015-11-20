@@ -63,12 +63,6 @@ a {
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
   background-color: #00568a;
 }
-.dropdown-menu > li > a:hover,
-.dropdown-menu > li > a:focus,
-.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
-.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-  background-color: #00568a;
-}
 .rojo {
   color: #ec293f;
 }
